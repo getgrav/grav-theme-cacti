@@ -1,14 +1,25 @@
 # Cacti
 
-![Cacti](assets/readme_1.png)
+![Cacti](screenshot.jpg)
 
-Cacti is the default [Grav](http://getgrav.org) theme. Simple, fast and modern.
+Cacti is a lightweight blogging theme based on the [Cactus](http://cactusformac.com/) static generator theme and the [Kactus](https://github.com/nickbalestra/kactus) Jekyll theme.
+
+## Features
+
+* Lightweight and minimal for optimal performance
+* Super clean and modern design
+* Infinite loading of blog posts utilizing the [pagination plugin](https://github.com/getgrav/grav-plugin-pagination).
+* Twitter and Facebook integration
+* Support for Disqus comments
+* Google Analytics built-in
+
+![Cacti](assets/inner-page.jpg)
 
 # Installation
 
 Installing the Cacti theme can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.
 
-The theme by itself is useful, but you may have an easier time getting up and running by installing a skeleton. The Cacti theme can be found in both the [One-page](https://github.com/getgrav/grav-skeleton-onepage-site) and [Blog Site](https://github.com/getgrav/grav-skeleton-blog-site) which are self-contained repositories for a complete sites which include: sample content, configuration, theme, and plugins.
+The theme by itself is useful, but you may have an easier time getting up and running by installing a skeleton. The Cacti theme is used in the [Multi-Language Skeleton](https://github.com/getgrav/grav-skeleton-multilanguage-site), which is a **read-to-run** site including: sample content, configuration, theme, and plugins.
 
 ## GPM Installation (Preferred)
 
@@ -45,32 +56,11 @@ This command will check your Grav install to see if your Cacti theme is due for 
 Manually updating Cacti is pretty simple. Here is what you will need to do to get this done:
 
 * Delete the `your/site/user/themes/cacti` directory.
-* Downalod the new version of the Cacti theme from either [GitHub](https://github.com/getgrav/grav-plugin-cacti) or [GetGrav.org](http://getgrav.org/downloads/themes#extras).
+* Downalod the new version of the Cacti theme from either [GitHub](https://github.com/getgrav/grav-theme-cacti) or [GetGrav.org](http://getgrav.org/downloads/themes).
 * Unzip the zip file in `your/site/user/themes` and rename the resulting folder to `cacti`.
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing `bin/grav clear-cache`.
 
 > Note: Any changes you have made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a YAML settings file placed in `user/config/themes`) will remain intact.
-
-## Features
-
-* Lightweight and minimal for optimal performance
-* Fully responsive with off-page mobile navigation
-* SCSS based CSS source files for easy customization
-* Built-in support for on-page navigation
-* Mutliple page template types
-* Fontawesome icon support
-
-### Supported Page Templates
-
-* Default view template
-* Blog view template
-* Error view template
-* Blog item vew template
-* Modular view templates:
-  * Features Modular view template
-  * Showcase Modular view template
-  * Text Modular view template
-* SnipCart view template
 
 # Setup
 
