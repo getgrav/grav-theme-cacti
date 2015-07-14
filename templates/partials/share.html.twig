@@ -1,0 +1,12 @@
+{% if theme_config.social.twitter %}
+<a class="twitter" href="https://twitter.com/intent/tweet?text={{page.title}} by {{ theme_config.social.twitter }} - {{ page.url(true) }}"><span class="icon-twitter"> {{ 'TWEET'|t }}</span></a>
+{% endif %}
+{% if theme_config.social.facebook %}
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> {{ 'SHARE'|t }}</span>
+</a>
+{% endif %}

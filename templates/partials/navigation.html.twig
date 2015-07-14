@@ -1,0 +1,19 @@
+<secton id="navigation">
+
+    <nav class="main-nav">
+        {% for page in pages.children.visible %}
+            {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+            <a class="{{ current_page }}" href="{{ page.url }}">
+                {% if page.home %}<span class="arrow">←</span> {% endif %}
+                {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+                {{ page.menu }}
+            </a>
+        {% endfor %}
+        {% if config.plugins.feed.enabled %}
+            <a class="cta" href="{{ base_url }}{{ pages.find('/blog').rawRoute }}.rss">{{ 'SUBSCRIBE'|t }}</a>
+        {% endif %}
+    </nav>
+    {% if config.plugins.langswitcher.enabled %}
+        {% include 'partials/langswitcher.html.twig' %}
+    {% endif %}
+</secton>

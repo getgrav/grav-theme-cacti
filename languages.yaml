@@ -1,0 +1,21 @@
+en:
+    SITE:
+      TITLE: My Blog
+      DESCRIPTION: Blogging about stuff
+      COPYRIGHT: © Copyright %s Your Company
+    SUBSCRIBE: Subscribe
+    TWEET: Tweet
+    SHARE: Share
+    MONTHS_OF_THE_YEAR: [January, February, March, April, May, June, July, August, September, October, November, December]
+    DAYS_OF_THE_WEEK: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
+
+fr:
+    SITE:
+      TITLE: Mon Blog
+      DESCRIPTION: Blogging à propos de choses
+      COPYRIGHT: © Copyright %s Votre Company
+    SUBSCRIBE: S'abonner
+    TWEET: Tweet
+    SHARE: Partager
+    MONTHS_OF_THE_YEAR: [Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre]
+    DAYS_OF_THE_WEEK: [Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche]
