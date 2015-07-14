@@ -7,8 +7,22 @@ Cacti is a lightweight blogging theme based on the [Cactus](http://cactusformac.
 ## Features
 
 * Lightweight and minimal for optimal performance
-* Super clean and modern design
 * Infinite loading of blog posts utilizing the [pagination plugin](https://github.com/getgrav/grav-plugin-pagination).
+* Multi-Language Compatible!
+* Included languages: 
+    * English
+    * Spanish
+    * Czech
+    * German
+    * Italian
+    * Finnish
+    * French
+    * Dutch
+    * Polish
+    * Portuguese
+    * Romanian
+    * Russian
+* Super clean and modern design
 * Twitter and Facebook integration
 * Support for Disqus comments
 * Google Analytics built-in
