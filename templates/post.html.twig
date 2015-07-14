@@ -1,0 +1,65 @@
+{% embed 'partials/base.html.twig' %}
+
+    {% block content %}
+    <article class="post">
+        <header>
+            <h1>{{ page.title }}</h1>
+            <h2 class="headline">{{ 'MONTHS_OF_THE_YEAR'|ta(post.date|date('n') - 1) }} {{ page.date|date("m, Y") }}</h2>
+        </header>
+        <section id="post-body">
+            {{ page.content }}
+        </section>
+    </article>
+    <footer id="post-meta" class="clearfix">
+        <a href="http://twitter.com/{{ theme_config.social.twitter|trim('@') }}">
+            <img class="avatar" src="{{ avatar_url }}">
+            <div>
+                <span class="dark">{{ theme_config.author }}</span>
+                <span>{{ 'SITE.DESCRIPTION'|t }}</span>
+            </div>
+        </a>
+
+        <section id="sharing">
+            {% include 'partials/share.html.twig' %}
+        </section>
+    </footer>
+
+    <nav id="post-nav">
+        {% if not page.isFirst %}
+        <span class="prev">
+            <a href="{{ page.nextSibling.url }}"><span class="arrow">←</span> {{ page.nextSibling.title }}</a>
+        </span>
+        {% endif %}
+
+        {% if not page.isLast %}
+        <span class="next">
+            <a href="{{ page.prevSibling.url }}">{{ page.prevSibling.title }} <span class="arrow">→</span></a>
+        </span>
+        {% endif %}
+    </nav>
+
+
+    <!-- Disqus comments -->
+    {% if page.header.disqus %}
+        <div class="archive readmore">
+            <h3>Comments</h3>
+            {% include 'partials/disqus.html.twig' %}
+        </div>
+    {% endif %}
+
+    <!-- Archive post list -->
+    {% if page.header.archive %}
+        <ul id="post-list" class="archive readmore">
+            <h3>Read more</h3>
+            {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}<aside class="dates">{{ post.date|date("M d")  }}</aside></a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% endblock %}
+
+
+{% endembed %}
