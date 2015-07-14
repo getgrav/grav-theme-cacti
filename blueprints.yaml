@@ -1,13 +1,13 @@
 name: Cacti
-version: 1.0.0
+version: 1.0.1
 description: Minimal theme based on Cactus and Kactus
-icon: tree
+icon: globe
 author:
   name: Team Grav
   email: devs@getgrav.org
   url: http://getgrav.org
 homepage: https://github.com/getgrav/grav-theme-cacti
-demo: http://demo.getgrav.org/blog-skeleton
+demo: http://demo.getgrav.org/multilang-skeleton
 keywords: cacti, theme, minimal, modern, fast, responsive, html5, css3
 bugs: https://github.com/getgrav/grav-theme-cacti/issues
 license: MIT
