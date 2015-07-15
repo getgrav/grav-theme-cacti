@@ -1,5 +1,5 @@
 ---
-title: About
+title: Sobre
 class: home
 profile: true
 ---
