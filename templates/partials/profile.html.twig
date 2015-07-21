@@ -1,7 +1,8 @@
 <div class="profile">
     <header id="header">
-        <a href='{{ pages.find('/about').url }}'>
-            <img id="avatar" class="2x" src="{{ avatar_url }}"/>
+        {% set profile = pages.find('/about') %}
+        <a href='{{ profile.url }}'>
+            <img id="avatar" src="{{ avatar_url }}"/>
         </a>
         <h1>{{ theme_config.author }}</h1>
         <h2>{{ 'SITE.DESCRIPTION'|t }}</h2>
