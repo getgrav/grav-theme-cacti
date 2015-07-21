@@ -1,3 +1,9 @@
+# v1.1.1
+## 07/21/2015
+
+1. [](#bugfix)
+    * Fixed issue with Retina profile image
+
 # v1.1.0
 ## 07/19/2015
 
@@ -11,7 +17,7 @@
 
 1. [](#improved)
     * Updated blueprints
-    
+
 # v1.0.0
 ## 07/13/2015
 
