@@ -97,7 +97,7 @@ nl:
   MONTHS_OF_THE_YEAR: [Januari, Februari, Maart, April, Mei Juni, Juli, Augustus, September, Oktober, November, December]
   DAYS_OF_THE_WEEK: [Maandag, Dinsdag, Woensdag, Donderdag, Vrijdag, Zaterdag, Zondag]
 
-po:
+pl:
   SITE:
     TITLE: Mój blog
     DESCRIPTION: Blog o wszystkim
