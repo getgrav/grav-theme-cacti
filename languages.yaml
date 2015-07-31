@@ -18,7 +18,7 @@ el:
   TWEET: Tweet
   SHARE: Κοινοποίηση
   MONTHS_OF_THE_YEAR: [Ιανουάριος, Φεβρουάριος, Μάρτιος, Απρίλιος, Μάιος, Ιούνιος, Ιούλιος, Αύγουστος, Σεπτέμβριος, Οκτώβριος, Νοέμβριος, Δεκέμβριος]
-  DAYS_OF_THE_WEEK: [Δευτέρα, Τρλιτη, Τετάρτη, Πέμπτη, Παρασκευή, Σαββάτο, Κυριακή]  
+  DAYS_OF_THE_WEEK: [Δευτέρα, Τρλιτη, Τετάρτη, Πέμπτη, Παρασκευή, Σαββάτο, Κυριακή]
 
 es:
   SITE:
@@ -96,6 +96,17 @@ nl:
   SHARE: Delen
   MONTHS_OF_THE_YEAR: [Januari, Februari, Maart, April, Mei Juni, Juli, Augustus, September, Oktober, November, December]
   DAYS_OF_THE_WEEK: [Maandag, Dinsdag, Woensdag, Donderdag, Vrijdag, Zaterdag, Zondag]
+
+nb:
+  SITE:
+    TITLE: Min Blogg
+    DESCRIPTION: Blog om ting og tang
+    COPYRIGHT: © Opphavsrett %s Ditt Selskap
+  SUBSCRIBE: Abonner
+  TWEET: Tweet
+  SHARE: Del
+  MONTHS_OF_THE_YEAR: [januar, februar, mars, april, mai, juni, juli, august, september, oktobernovember, desember]
+  DAYS_OF_THE_WEEK: [mandag, tirsdag, onsdag, torsdag, fredag, lørdag, søndag]
 
 po:
   SITE:
