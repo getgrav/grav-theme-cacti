@@ -1,3 +1,10 @@
+# v1.2.1
+## 01/06/2016
+
+1. [](#bugfix)
+    * Fixed Polish translation
+    * Fixed incorrect section tag
+
 # v1.2.0
 ## 08/25/2015
 
