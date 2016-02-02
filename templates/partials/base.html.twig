@@ -13,6 +13,7 @@
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
   {% block stylesheets %}
     {% do assets.addCss('theme://css/style.css',100) %}
+    {% do assets.addCss('theme://css/highlight.css') %}
   {% endblock %}
   {{ assets.css() }}
 
@@ -20,8 +21,17 @@
       {% do assets.addJs('jquery',101) %}
       {% do assets.addJs('theme://js/main.js',100) %}
       {% do assets.addJs('theme://js/jquery.jscroll.min.js') %}
+      {% do assets.addJs('theme://js/highlight.js') %}
   {% endblock %}
   {{ assets.js() }}
+
+  <script>
+     $(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });
+  </script>
 </head>
 <body>
 
