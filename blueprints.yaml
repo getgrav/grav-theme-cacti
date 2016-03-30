@@ -16,14 +16,6 @@ form:
   validation: loose
   fields:
 
-    default_lang:
-        type: text
-        size: small
-        label: Default lang
-        default: 'en'
-        validate:
-          type: text
-
     author:
         type: text
         size: medium
