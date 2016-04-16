@@ -363,13 +363,13 @@ pre	{
 	color: #d0d4d7;
 }
 
-pre code {
+pre:not(code) {
     background: transparent;
     padding: 0;
 }
 
 code.hljs {
-    padding: 0;
+    padding: 16px;
 }
 
 table {
