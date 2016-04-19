@@ -84,4 +84,4 @@ Once this is done, you should be able to see the new theme on the frontend. Keep
 
 ## Enable Disqus
 
-To enable comments with Disqus, add `disqus_shortname: YOUR_DISQUS_HANDLE` to the `user/config/site.yml`.
+To enable comments with Disqus, add `disqus_shortname: YOUR_DISQUS_HANDLE` to the `user/config/site.yaml` file.
