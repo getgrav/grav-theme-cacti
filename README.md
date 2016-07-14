@@ -67,7 +67,6 @@ The Cacti theme has a few simple options that help you configure the theme (`cac
 
 ```
 enabled: true
-default_lang: en
 author: Wilberforce Humphries
 title_header: false
 home_profile: true

@@ -2,7 +2,7 @@
 {% set avatar_url = pages.find('/about').media.images|first.url ?: url('theme://images/avatar.png') %}
 {% import 'macros/dates.twig' as dates %}
 <!DOCTYPE html>
-<html lang="{{ grav.language.getActive ?: theme_config.default_lang }}">
+<html lang="{{ grav.language.getLanguage ?: 'en' }}">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

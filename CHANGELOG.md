@@ -1,3 +1,13 @@
+# v1.3.0
+## 07/14/2016
+
+1. [](#new)
+    * Added support for Disqus comments
+1. [](#bugfix)
+    * Fixed the post published date format
+    * Fix setting the page language in the html tag
+    * Fix code highlighting support
+    
 # v1.2.1
 ## 01/06/2016
 
