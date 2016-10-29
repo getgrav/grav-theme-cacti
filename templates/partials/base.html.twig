@@ -9,6 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if header.title %}{{ header.title|e('html') }} - {% endif %}{{ 'SITE.TITLE'|t|e('html') }}</title>
+  {% if header.headline %}<meta name="description" content="{{ header.headline|e('html') }}">{% endif %}
+
   <link rel="shortcut icon" href="{{ url('theme://images/favicon.ico') }}" />
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
   {% block stylesheets %}
@@ -40,7 +42,7 @@
     {% if site.analytics %}
     {% include 'partials/analytics.html.twig' %}
     {% endif %}
-    
+
   {% block javascripts %}
       {% do assets.addJs('jquery',101) %}
       {% do assets.addJs('theme://js/main.js',100) %}
