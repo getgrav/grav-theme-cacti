@@ -12,13 +12,13 @@ en:
 el:
   SITE:
     TITLE: To blog μου
-    DESCRIPTION: Blogging για την ουσία
-    COPYRIGHT: © Δικαιώματα %s Η εταιρία σας
+    DESCRIPTION: Blogging για διάφορα θέματα
+    COPYRIGHT: © Copyright %s Η εταιρία σας
   SUBSCRIBE: Εγγραφή
   TWEET: Tweet
   SHARE: Κοινοποίηση
   MONTHS_OF_THE_YEAR: [Ιανουάριος, Φεβρουάριος, Μάρτιος, Απρίλιος, Μάιος, Ιούνιος, Ιούλιος, Αύγουστος, Σεπτέμβριος, Οκτώβριος, Νοέμβριος, Δεκέμβριος]
-  DAYS_OF_THE_WEEK: [Δευτέρα, Τρλιτη, Τετάρτη, Πέμπτη, Παρασκευή, Σαββάτο, Κυριακή]
+  DAYS_OF_THE_WEEK: [Δευτέρα, Τρίτη, Τετάρτη, Πέμπτη, Παρασκευή, Σάββατο, Κυριακή]
 
 es:
   SITE:
