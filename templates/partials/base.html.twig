@@ -2,20 +2,23 @@
 {% set avatar_url = pages.find('/about').media.images|first.url ?: url('theme://images/avatar.png') %}
 {% import 'macros/dates.twig' as dates %}
 <!DOCTYPE html>
-<html lang="{{ grav.language.getLanguage ?: 'en' }}">
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
 <head>
+  <title>{% if header.title %}{{ header.title|e('html') }} - {% endif %}{{ 'SITE.TITLE'|t|e('html') }}</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if header.title %}{{ header.title|e('html') }} - {% endif %}{{ 'SITE.TITLE'|t|e('html') }}</title>
+  {% include 'partials/metadata.html.twig' %}
   <link rel="shortcut icon" href="{{ url('theme://images/favicon.ico') }}" />
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
+
   {% block stylesheets %}
     {% do assets.addCss('theme://css/style.css',100) %}
   {% endblock %}
-  {{ assets.css() }}
-
+  
+  {% block assets deferred %}
+    {{ assets.css()|raw }}    
+  {% endblock %}
 </head>
 <body>
 
@@ -46,6 +49,10 @@
       {% do assets.addJs('theme://js/main.js',100) %}
       {% do assets.addJs('theme://js/jquery.jscroll.min.js') %}
   {% endblock %}
-  {{ assets.js() }}
+
+  {% block bottom %}
+    {{ assets.js()|raw }}
+    {{ assets.js('bottom')|raw }}
+  {% endblock %}
 </body>
 </html>
