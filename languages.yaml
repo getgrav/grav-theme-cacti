@@ -9,6 +9,28 @@ en:
   MONTHS_OF_THE_YEAR: [January, February, March, April, May, June, July, August, September, October, November, December]
   DAYS_OF_THE_WEEK: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
 
+cs:
+  SITE:
+    TITLE: Můj blog
+    DESCRIPTION: Blogování o všem možném
+    COPYRIGHT: © Copyright %s Moje společnost
+  SUBSCRIBE: Odebírat
+  TWEET: Tweet
+  SHARE: Sdílet
+  MONTHS_OF_THE_YEAR: [Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec]
+  DAYS_OF_THE_WEEK: [Pondělí, Úterý, Středa, Čtvrtek, Pátek, Sobota, Neděle]
+  
+de:
+  SITE:
+    TITLE: Mein Blog
+    DESCRIPTION: Blogging über dies und das
+    COPYRIGHT: © Copyright %s deine Firma
+  SUBSCRIBE: Abonnieren
+  TWEET: Tweeten
+  SHARE: Teilen
+  MONTHS_OF_THE_YEAR: [Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
+  DAYS_OF_THE_WEEK: [Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag]
+
 el:
   SITE:
     TITLE: To blog μου
@@ -30,40 +52,7 @@ es:
   SHARE: Compartir
   MONTHS_OF_THE_YEAR: [Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Augosto, Septiembre, Octubre, Noviembre, Diciembre]
   DAYS_OF_THE_WEEK: [Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo]
-
-cs:
-  SITE:
-    TITLE: Můj blog
-    DESCRIPTION: Blogování o všem možném
-    COPYRIGHT: © Copyright %s Moje společnost
-  SUBSCRIBE: Odebírat
-  TWEET: Tweet
-  SHARE: Sdílet
-  MONTHS_OF_THE_YEAR: [Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec]
-  DAYS_OF_THE_WEEK: [Pondělí, Úterý, Středa, Čtvrtek, Pátek, Sobota, Neděle]
-
-de:
-  SITE:
-    TITLE: Mein Blog
-    DESCRIPTION: Blogging über dies und das
-    COPYRIGHT: © Copyright %s deine Firma
-  SUBSCRIBE: Abonnieren
-  TWEET: Tweeten
-  SHARE: Teilen
-  MONTHS_OF_THE_YEAR: [Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
-  DAYS_OF_THE_WEEK: [Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag]
-
-it:
-  SITE:
-    TITLE: Il mio blog
-    DESCRIPTION: Blogging su questo e su quello
-    COPYRIGHT: Tutti i diritti riservati © %s Società
-  SUBSCRIBE: Abbonati
-  TWEET: Twitta
-  SHARE: Condividi
-  MONTHS_OF_THE_YEAR: [Gennaio, Febbraio, Marzo, Cprile, Maggio, Giugno, Luglio, Agosto, Settembre, Ottobre, Novembre, Dicembre]
-  DAYS_OF_THE_WEEK: [Lunedi, Martedi, Mercoledi, Giovedi, Venerdi, Sabato, Domenica]
-
+  
 fi:
   SITE:
     TITLE: Minun blogini
@@ -78,24 +67,24 @@ fi:
 fr:
   SITE:
     TITLE: Mon blogue
-    DESCRIPTION: Blogages sur ceci et cela
-    COPYRIGHT: Tous droits réservés © %s Votre Entreprise
+    DESCRIPTION: Blog sur tout et rien
+    COPYRIGHT: Tous droits réservés ©%s Votre société
   SUBSCRIBE: Abonnez-vous
   TWEET: Twittez
   SHARE: Partagez
-  MONTHS_OF_THE_YEAR: [Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre]
-  DAYS_OF_THE_WEEK: [Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche]
+  MONTHS_OF_THE_YEAR: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+  DAYS_OF_THE_WEEK: [lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche]
 
-nl:
+it:
   SITE:
-      TITLE: Mijn Blog
-      DESCRIPTION: Bloggen over vanalles en nog wat
-      COPYRIGHT: Copyright © %s Uw Bedrijf
-  SUBSCRIBE: Abonneren
-  TWEET: Tweet
-  SHARE: Delen
-  MONTHS_OF_THE_YEAR: [Januari, Februari, Maart, April, Mei Juni, Juli, Augustus, September, Oktober, November, December]
-  DAYS_OF_THE_WEEK: [Maandag, Dinsdag, Woensdag, Donderdag, Vrijdag, Zaterdag, Zondag]
+    TITLE: Il mio blog
+    DESCRIPTION: Blogging su questo e su quello
+    COPYRIGHT: Tutti i diritti riservati © %s Società
+  SUBSCRIBE: Abbonati
+  TWEET: Twitta
+  SHARE: Condividi
+  MONTHS_OF_THE_YEAR: [Gennaio, Febbraio, Marzo, Cprile, Maggio, Giugno, Luglio, Agosto, Settembre, Ottobre, Novembre, Dicembre]
+  DAYS_OF_THE_WEEK: [Lunedi, Martedi, Mercoledi, Giovedi, Venerdi, Sabato, Domenica]
 
 nb:
   SITE:
@@ -107,6 +96,17 @@ nb:
   SHARE: Del
   MONTHS_OF_THE_YEAR: [januar, februar, mars, april, mai, juni, juli, august, september, oktobernovember, desember]
   DAYS_OF_THE_WEEK: [mandag, tirsdag, onsdag, torsdag, fredag, lørdag, søndag]
+  
+nl:
+  SITE:
+      TITLE: Mijn Blog
+      DESCRIPTION: Bloggen over vanalles en nog wat
+      COPYRIGHT: Copyright © %s Uw Bedrijf
+  SUBSCRIBE: Abonneren
+  TWEET: Tweet
+  SHARE: Delen
+  MONTHS_OF_THE_YEAR: [Januari, Februari, Maart, April, Mei Juni, Juli, Augustus, September, Oktober, November, December]
+  DAYS_OF_THE_WEEK: [Maandag, Dinsdag, Woensdag, Donderdag, Vrijdag, Zaterdag, Zondag]
 
 pl:
   SITE:

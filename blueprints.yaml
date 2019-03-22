@@ -1,5 +1,5 @@
 name: Cacti
-version: 1.3.0
+version: 1.4.0
 description: Minimal theme based on Cactus and Kactus
 icon: globe
 author:
@@ -11,6 +11,8 @@ demo: http://demo.getgrav.org/multilang-skeleton
 keywords: cacti, theme, minimal, modern, fast, responsive, html5, css3, multilanguage
 bugs: https://github.com/getgrav/grav-theme-cacti/issues
 license: MIT
+dependencies:
+  - { name: grav, version: '>=1.5.10' }
 
 form:
   validation: loose

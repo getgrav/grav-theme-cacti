@@ -24,7 +24,7 @@ Cacti is a lightweight blogging theme based on the [Cactus](http://cactusformac.
     * Russian
 * Super clean and modern design
 * Twitter and Facebook integration
-* Support for Disqus comments
+* Support for [Disqus comments](#enable-disqus)
 * Google Analytics built-in
 
 ![Cacti](assets/inner-page.jpg)
@@ -81,3 +81,7 @@ In order to configure Cacti, you should copy the theme's `cacti.yaml` file into 
 
 
 Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **cacti** folder.
+
+## Enable Disqus
+
+To enable comments with Disqus, add `disqus_shortname: YOUR_DISQUS_HANDLE` to the `user/config/site.yaml` file.
