@@ -1,5 +1,7 @@
 name: Cacti
-version: 1.4.0
+slug: cacti
+type: theme
+version: 1.4.1
 description: Minimal theme based on Cactus and Kactus
 icon: globe
 author:
