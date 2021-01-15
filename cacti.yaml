@@ -5,6 +5,6 @@ home_profile: true
 infinite_scroll: true
 analytics: UA-YOURCODE
 social:
-    twitter: @getgrav
+    twitter: '@getgrav'
     facebook: rockettheme
 
