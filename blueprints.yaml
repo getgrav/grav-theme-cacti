@@ -65,7 +65,7 @@ form:
         type: text
         size: medium
         label: Google Analytics Code
-        default: 'UA-YOURCODE'
+        placeholder: 'UA-YOURCODE'
         validate:
           type: text
 
@@ -73,7 +73,7 @@ form:
         type: text
         size: medium
         label: Twitter
-        default: '@getgrav'
+        placeholder: '@getgrav'
         validate:
           type: text
 
@@ -81,7 +81,7 @@ form:
         type: text
         size: medium
         label: Facebook
-        default: 'rockettheme'
+        placeholder: getgrav
         validate:
           type: text
 
