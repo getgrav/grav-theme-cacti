@@ -12,6 +12,7 @@
         {% if config.plugins.feed.enabled %}
             <a class="cta" href="{{ base_url }}{{ pages.find('/blog').rawRoute }}.rss">{{ 'SUBSCRIBE'|t }}</a>
         {% endif %}
+        <a href="{{ base_url }}/sitemap">Sitemap</a>
     </nav>
     {% if config.plugins.langswitcher.enabled %}
         {% include 'partials/langswitcher.html.twig' %}

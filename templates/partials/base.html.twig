@@ -9,8 +9,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% include 'partials/metadata.html.twig' %}
-  <link rel="shortcut icon" href="{{ url('theme://images/favicon.ico') }}" />
+  {# Favicon: prefer site-root icon, include theme + legacy for compatibility #}
+  <link rel="icon" type="image/x-icon" href="{{ base_url_absolute }}/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="{{ url('theme://images/favicon.ico', true) }}" />
+  <link rel="shortcut icon" href="{{ url('theme://images/favicon.ico', true) }}" />
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
+  {% include 'partials/langswitcher.hreflang.html.twig' %}
 
   {% block stylesheets %}
     {% do assets.addCss('theme://css/style.css',100) %}
@@ -21,7 +25,6 @@
   {% endblock %}
 </head>
 <body>
-
     {% include 'partials/navigation.html.twig' %}
 
     <section id="wrapper">
