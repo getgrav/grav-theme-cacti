@@ -372,7 +372,7 @@ code.hljs {
     padding: 16px;
 }
 
-table {
+:not(.hljs)>table {
 	width: 100%;
 	margin: 40px 0;
 	border-collapse: collapse;
@@ -380,28 +380,28 @@ table {
 	line-height: 1.5em;
 }
 
-th,td {
+:not(.hljs)>table th,:not(.hljs)>table td {
 	text-align: left;
 	padding-right: 20px;
 	vertical-align: top;
 }
 
-table td,td {
+:not(.hljs)>table td,:not(.hljs)>table td {
 	border-spacing: none;
 	border-style: solid;
 	padding: 10px 15px;
 	border-width: 1px 0 0 0;
 }
 
-tr>td {
+:not(.hljs)>table tr>td {
 	border-top: 1px solid #eaeaea;
 }
 
-tr:nth-child(odd)>td {
+:not(.hljs)>table tr:nth-child(odd)>td {
 	background: #fcfcfc;
 }
 
-thead th,th {
+:not(.hljs)>table thead th,:not(.hljs)>table th {
 	text-align: left;
 	padding: 10px 15px;
 	height: 20px;
