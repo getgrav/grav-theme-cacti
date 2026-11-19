@@ -1,3 +1,11 @@
+# v1.4.2
+## 11/18/2026
+
+1. [](#improved)
+    * The Google Analytics, Twitter and Facebook settings show their example values as placeholders instead of saving them as defaults [#25](https://github.com/getgrav/grav-theme-cacti/pull/25) (thanks @jmkeil)
+    * With the LangSwitcher plugin enabled, pages carry `hreflang` alternate links, and with the Sitemap plugin enabled, the navigation links to the sitemap
+    * The favicon is also picked up from the site root, and blog post bodies carry the `magic-content` class that SEO Magic reads content from
+
 # v1.4.1
 ## 01/15/2021
 

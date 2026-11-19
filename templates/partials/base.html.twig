@@ -14,7 +14,7 @@
   <link rel="icon" type="image/x-icon" href="{{ url('theme://images/favicon.ico', true) }}" />
   <link rel="shortcut icon" href="{{ url('theme://images/favicon.ico', true) }}" />
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
-  {% include 'partials/langswitcher.hreflang.html.twig' %}
+  {% if config.plugins.langswitcher.enabled %}{% include 'partials/langswitcher.hreflang.html.twig' ignore missing %}{% endif %}
 
   {% block stylesheets %}
     {% do assets.addCss('theme://css/style.css',100) %}
